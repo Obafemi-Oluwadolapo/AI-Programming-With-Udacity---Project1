@@ -1,8 +1,8 @@
-# AI-Programming-With-Udacity---Project1
+AI-Programming-With-Udacity---Project1
 
-##Image Classification for a City Dog Show
-#Project Goal
-#Improving your programming skills using Python.
+Image Classification for a City Dog Show
+Project Goal
+Improving your programming skills using Python.
 In this project, you will use a created image classifier to identify dog breeds. We ask you to focus on Python and not on the actual classifier.
 
 Description:
