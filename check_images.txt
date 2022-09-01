@@ -1,0 +1,23 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes,the three models classified the breed of German_Shepherd_01.jpg correctly. They all the same classification for the Dog breed to be ('german shepherd dog, german police dog, alsatian')
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes,the three models classified the breed of German_Shepherd_02.jpg to be the same as German_Shepherd_01.jpg correctly. They all the same classification for the Dog breed to be ('german shepherd dog, german police dog, alsatian')
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes,the three models had the same value for the classification of Dice and Sparrow Hawk correctly. Even the classificationwas very very wrong. 
+
+For Dice: Saltshaker, saltshaker
+For Sparrow Hawk: Kite
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: VGG, even though the Vgg is the slowest in running, the accuracy was the best out of all the three because this was a also seen in the pet_images data. 
