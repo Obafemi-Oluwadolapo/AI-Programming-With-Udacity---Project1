@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: OBAFEMI OLUWADOLAPO SUCCESS 
 # DATE CREATED: 30TH AUGUST, 2022
-# REVISED DATE: 
+# REVISED DATE: 30TH AUGUST, 2022
 # PURPOSE: Create a function print_results that prints the results statistics
 #          from the results statistics dictionary (results_stats_dic). It 
 #          should also allow the user to be able to print out cases of misclassified
