@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: OBAFEMI OLUWADOLAPO SUCCESS
 # DATE CREATED:  30TH AUGUST, 2022                                
-# REVISED DATE: 
+# REVISED DATE: 30TH AUGUST, 2022
 # PURPOSE: Create a function calculates_results_stats that calculates the 
 #          statistics of the results of the program run using the classifier's model 
 #          architecture to classify the images. This function will use the 
