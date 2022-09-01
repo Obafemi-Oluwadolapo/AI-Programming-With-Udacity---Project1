@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: OBAFEMI OLUWADOLAPO SUCCESS
 # DATE CREATED: 27TH AUGUST, 2022        
-# REVISED DATE: 
+# REVISED DATE: 28TH AUGUST, 2022
 # PURPOSE: Create the function get_pet_labels that creates the pet labels from 
 #          the image's filename. This function inputs: 
 #           - The Image Folder as image_dir within get_pet_labels function and 
@@ -18,6 +18,7 @@
 ##
 # Imports python modules
 from os import listdir
+from get_input_args import get_input_args
 
 # TODO 2: Define get_pet_labels function below please be certain to replace None
 #       in the return statement with results_dic dictionary that you create 
@@ -40,7 +41,8 @@ def get_pet_labels(image_dir):
       List. The list contains for following item:
          index 0 = pet image label (string)
     """
-    filename_list = listdir("pet_images/") 
+    file = get_input_args()
+    filename_list = listdir(file.dir)
     
     # Print 10 of the filenames from folder pet_images/
     #print("\nPrints 40 filenames from folder pet_images/")
