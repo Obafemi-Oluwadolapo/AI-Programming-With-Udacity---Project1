@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: OBAFEMI OLUWADOLAPO SUCCESS
 # DATE CREATED: 30TH AUGUST,2022       
-# REVISED DATE: 
+# REVISED DATE: 30TH AUGUST,2022    
 
 def adjust_results4_isadog(results_dic, dogfile):
     #dogfile = dognames.txt
