@@ -4,7 +4,7 @@
 #                                                                             
 # PROGRAMMER: OBAFEMI OLUWADOLAPO SUCCESS
 # DATE CREATED: 28TH AUGUST, 2022                          
-# REVISED DATE: 
+# REVISED DATE: 30TH AUGUST, 2022
 # PURPOSE: Create a function classify_images that uses the classifier function 
 #          to create the classifier labels and then compares the classifier 
 #          labels to the pet image labels. This function inputs:
