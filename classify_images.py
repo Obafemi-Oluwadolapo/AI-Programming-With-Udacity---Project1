@@ -69,7 +69,7 @@ def classify_images(images_dir, results_dic, model):
     # Defines a model architecture to be used for classification
     # NOTE: this function only works for model architectures: 
     #      'vgg', 'alexnet', 'resnet'  
-    model = "resnet"
+    #model = "resnet"
     #images_dir = r"pet_images/"
     
     for key in results_dic:
