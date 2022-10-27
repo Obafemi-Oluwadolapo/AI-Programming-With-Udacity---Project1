@@ -67,6 +67,10 @@ def get_pet_labels(image_dir):
         for word in pet_image_words:
             if word.isalpha():
                 pet_name +=  word + " "
+                
+                # Skipping words that starts with '.'
+                if word.startswith('.'):
+                    continue
         pet_name = pet_name.strip()
         #print(f"\nFilename {pet_image}, Label= {pet_name}")
         values.append(pet_name)
