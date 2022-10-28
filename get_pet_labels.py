@@ -69,7 +69,7 @@ def get_pet_labels(image_dir):
                 pet_name +=  word + " "
                 
                 # Skipping words that starts with '.'
-                if word.startswith
+                if word.startswith('.'):
                     # Finds the index '.' in the word and replaces it with '', thereby removing the '.'
                     word = word.replace('.', '') 
         pet_name = pet_name.strip()
